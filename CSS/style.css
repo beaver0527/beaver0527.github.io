@@ -1,0 +1,59 @@
+@import url(reset.css);
+*{
+    color: rgb(201, 188, 188);
+}
+.hidden{
+    display: none;
+}
+.absolute{
+    position: absolute;
+    z-index: -9999;
+}
+.maxwidth{
+    max-width: 1240px;;
+}
+.full_width{
+    width: 100%;
+    height: 100%;
+}
+header{
+    padding: 20px;
+    background-color:azure;
+    color: black;
+}
+
+.text-center{
+    text-align: center;
+}
+
+h1{
+    font-size: 3rem;
+    margin-top: 200px;
+    text-align: center;
+}
+#login-container{
+    margin-top: 200px;
+}
+#todo-container{
+    display: flex;
+    justify-content: center;
+}
+#quotes{
+    margin-top: 500px;
+    text-align: center;
+}
+#quotes span{
+    display: block;
+    margin-top: 10px;
+}
+ul li{
+    color: black;
+}
+h2{
+    font-size: 1.5rem;
+    position: relative;
+    margin-top: 50px;
+}
+.bg-imgsize{
+    max-width: 1920px;
+}

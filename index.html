@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Star</title>
+</head>
+<body>
+    <header>
+        <span></span>
+    </header>
+    <div id="background-img">
+    </div>
+    <form id=login-form class="hidden">
+        <div id="login-container" class="text-center">
+            <input 
+            class="center"
+            type="text" 
+            required
+            maxlength = 15 
+            placeholder="What is your name">
+            <button>Log in</button>
+        </div>
+    </form>
+    <h1 id ="greeting" class="hidden"></h1>
+    <div id="todo-container">
+        <form id ="todo-form">
+            <input type="text" placeholder="Write a To Do and Press Enter" required style="width: 180px;">
+        </form>
+    </div>
+    <ul id= "todo-list" class="text-center">
+    </ul>
+    <div id ="quotes">
+        <span class="center"></span>
+        <span class="center"></span>
+    </div>
+    <h2 id="clock" class="text-center"></h2>
+    <script src="JS/quotes.js"></script>
+    <script src="JS/greeting.js"></script>
+    <script src="JS/clock.js"></script>
+    <script src="JS/todo.js"></script>
+    <script src="JS/weather.js"></script>
+    <script src="Js/background.js"></script>
+</body>
+</html>
